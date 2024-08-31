@@ -118,7 +118,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
                       articleTitle.onclick = function() {
                         window.location.href = article.claimReview[0]['url'];
                         console.log(`Clicked on fact-checked article: ${article.claimReview[0].title}`);
-                        const url = "https://script.google.com/macros/s/AKfycbwQFjX4eJrYZe7DgLzhx1RM0yJBvhcvFqBlcnAcgArhOUT562cb7xNoNXw5x75ZIf-s/exec"; // Replace with the URL of your deployed web app
+                        const url = "GOOGLE_SCRIPT_URL"; // Replace with the URL of your deployed web app
                           
                         const name = finalUserName;
                         const articleName = article.claimReview[0].title;

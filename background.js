@@ -1,4 +1,4 @@
-let userProfileInfo = "usernae";
+let userProfileInfo = "username";
 
 //function to get users' ID
 function getUserInfo() {
